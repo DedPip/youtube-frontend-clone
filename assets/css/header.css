@@ -59,6 +59,10 @@ header {
     
 }
 
+.middle-section .search-button:hover {
+    background-color: rgb(239, 239, 239);
+}
+
 .middle-section .search-button img {
     height: 24px;
 }
