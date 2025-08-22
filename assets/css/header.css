@@ -152,3 +152,52 @@ header {
     border: 2px solid white;
     padding-top: 1px;
 }
+
+
+
+@media (max-width: 700px) {
+    .search-bar {
+        display: none;
+    }
+    .middle-section .search-button {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+    }
+    .middle-section .voice-search-button {
+        display: none;
+    }
+
+    .middle-section {
+        justify-content: end;
+    }
+
+    .right-section {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        position: inherit;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+
+    .youtube-logo {
+        margin-left: 24px;
+    }
+
+    .middle-section .search-button {
+        margin-right: 0px;
+    }
+    .removed-in-phone {
+        display: none;
+    }
+    .right-section {
+        max-width: 84px;
+    }
+    
+}
+
